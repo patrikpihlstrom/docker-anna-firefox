@@ -6,7 +6,6 @@ RUN apt-get -y update
 RUN apt-get -y install git
 RUN apt-get -y install python
 RUN apt-get -y install python-pip
-RUN apt-get -y install python-tools
 RUN exit
 
 RUN git config --global user.name "anna-firefox"
