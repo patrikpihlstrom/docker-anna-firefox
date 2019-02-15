@@ -1,4 +1,4 @@
-FROM selenium/node-firefox-debug
+FROM selenium/node-firefox-debug:3.141.59-europium
 LABEL authors=patrikpihlstrom
 
 USER root
