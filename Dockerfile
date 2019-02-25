@@ -1,4 +1,4 @@
-FROM selenium/node-firefox-debug
+FROM selenium/node-firefox-debug:latest
 LABEL authors=patrikpihlstrom
 
 USER root
