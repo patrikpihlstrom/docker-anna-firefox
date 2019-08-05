@@ -13,4 +13,3 @@ RUN git clone https://github.com/patrikpihlstrom/anna.git ~/anna
 RUN cd ~/anna && pip3 install .
 ENV PYTHONPATH /opt/tailseeker:$PYTHONPATH
 RUN echo 'alias anna="python3 /home/seluser/anna/anna/__main__.py"' >> ~/.bashrc
-RUN cd /home/seluser/anna/ && python3 test.py firefox
