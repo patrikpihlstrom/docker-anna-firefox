@@ -1,5 +1,5 @@
 # docker-anna-firefox
-```version 1.0.0```
+```version 1.0.1```
 
 Dockerfile for the [anna](https://github.com/patrikpihlstrom/anna) firefox node
 
